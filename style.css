@@ -1,0 +1,85 @@
+/*FUENTES*/
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500&family=Raleway:wght@700&family=Roboto:wght@100;400;700&display=swap');
+
+/*VARIABLES COLOR*/
+:root {
+    --principal-color: rgb(174, 19, 50, 1);
+    --white-color: rgba(255, 255, 255, 1);
+}
+
+/*BODY*/
+
+main {
+    background-color: var(--principal-color);
+}
+
+ul {
+    list-style: none;
+}
+svg {
+    fill: currentColor;
+}
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1280px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+
+/*NAVEGATION BAR*/
+
+.navegation-bar {
+    background-color: var(--white-color);
+    display: flex;
+    height: 50px;
+    align-items: centers;
+}
+.navegation-list { 
+    display: flex;    
+    gap: 20px;
+    align-items: center;
+    padding-top: 16px;
+}
+.text-header {
+ color: var(--principal-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+    text-align: center;
+}
+
+.navegation-logos {
+    align-items: center;
+    display: flex;
+    padding-left : 322px;
+    padding-top: 16px;
+    gap: 506px ;
+}
+
+/*INFORMATION BANNER*/
+
+/*ORDER YOUR FRUIT*/
+
+/*PICTURE*/
+
+/*FRUIT LIST*/
+
+/*FRESH HARVEST BOX*/
+
+/*INFORMATION BOX*/
+
+/*FOOTER*/
+
+.container-footer {
+    width: 1280px;
+    height: 377px;
+    background-color: var(--white-color);
+    display: flex;
+    justify-content: space-between;
+}

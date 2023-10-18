@@ -4,27 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fresh Harvest Box</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <!--NAVEGATION BAR-->
     <header>
-        <nav>
-            <ul>
-                <li> <a href="#"> How It Works </a></li>
-                <li> <a href="#"> Fruits </a></li>
-                <li> <a href="#"> Contacts </a></li>
+        <div class="navegation-bar container">
+            <nav class="navegation-bar">
+                <ul class="navegation-list">
+                    <li class="navegation-elements"> <a href="#" class="text-header"> How It Works </a></li>
+                    <li class="navegation-elements"> <a href="#" class="text-header"> Fruits </a></li>
+                    <li class="navegation-elements"> <a href="#" class="text-header"> Contacts </a></li>
+                </ul>
+            </nav>
+            <ul class="navegation-logos">
+                <li><a href="index.html"><img src="/Elements/logo.png" alt="Logotipo"></a></li>
+                <li>
+                    <svg width="28" height="28" class="icon-header">
+                        <use href="./Elements/icons.svg#icon-FHBuil_cart"></use>
+                    </svg>
+                </li>
             </ul>
-        </nav>
-
-         <div>
-            <a href="index.html"><img src="/Elements/logo.png" alt="Logotipo"></a>
-         </div>
-        <svg width="28" height="28">
-            <use href="./Elements/icons.svg#icon-FHBuil_cart"></use>
-          </svg>
-
+        </div>
     </header>
-    <main>
+    <main class="container">
 
      <!--INFORMATION BANNER-->
 
@@ -199,38 +203,41 @@
     </main>
 
     <!--FOOTER-->
-    <footer>
-        <section>
-            <img src="/Elements/girl-2.png" alt="girl-2">
-            <img src="/Elements/logo.png" alt="logo">
-        </section>
-        <ul>
-            <li>How It Works</li>
-            <li>Fruits</li>
-            <li>Contacts</li>
-        </ul>
-        <ul>
-            <li>
-                <svg  width="44" height="44">
-                    <use href="/Elements/icons.svg#buttons1"></use>
-                </svg>
-            </li>
-            <li>
-                <svg  width="44" height="44">
-                    <use href="/Elements/icons.svg#buttons2"></use>
-                </svg>
-            </li>
-            <li>
-                <svg  width="44" height="44">
-                    <use href="/Elements/icons.svg#buttons3"></use>
-                </svg>
-            </li>   
-        </ul>
-        <address>
-            <p>+380 (68) 443-94-26</p>
-            <p>1678 S. Pioneer Road Salt Lake City UT 84104</p>
-        </address>   
-
+    <footer class="container">
+        <div class="container-footer">
+            <div class="img-footer">
+                <img src="/Elements/girl-2.png" alt="girl-2" width="349px" height="179px">
+                <a href="#"><img src="/Elements/logo.png" alt="logo"></a>
+            </div>
+                <div class="menu">
+                    <ul class="list-footer">
+                        <li class="footer-text">How It Works</li>
+                        <li class="footer-text">Fruits</li>
+                        <li class="footer-text">Contacts</li>
+                    </ul>
+                </div>
+            <div class="contact-footer">
+                    <ul class="networks-footer">
+                        <li>
+                            <svg  width="44" height="44">
+                                <use href="/Elements/icons.svg#buttons1"></use>
+                            </svg>
+                        </li>
+                        <li>
+                            <svg  width="44" height="44">
+                                <use href="/Elements/icons.svg#buttons2"></use>
+                            </svg>
+                        </li>
+                        <li>
+                            <svg  width="44" height="44">
+                                <use href="/Elements/icons.svg#buttons3"></use>
+                            </svg>
+                        </li>   
+                    </ul>  
+                        <p class="footer-text">+380 (68) 443-94-26</p>
+                        <p class="footer-text">1678 S. Pioneer Road Salt Lake City UT 84104</p>   
+            </div>
+        </div>
     </footer>
 </body>
 </html>
