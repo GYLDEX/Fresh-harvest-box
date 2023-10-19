@@ -77,9 +77,87 @@ a {
 /*FOOTER*/
 
 .container-footer {
+    padding-left: 32px;
+    padding-right: 32px;
     width: 1280px;
     height: 377px;
     background-color: var(--white-color);
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
+.img-footer {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.img-izq {
+padding: 0;
+}
+.element-img {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.list-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 164px;
+    padding-bottom: 195px;
+}
+.menu{
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+.menu-text {
+    color: var(--principal-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+    text-align: center;
+
+}
+
+
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.networks-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.icons-networks {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+ .contact-text {
+    color: var(--principal-color);
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    text-align: left;
+    line-height: 1.5;
+    list-style: none;
+ }
+ .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+ }
+
