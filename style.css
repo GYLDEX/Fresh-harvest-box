@@ -64,6 +64,178 @@ a {
 
 /*INFORMATION BANNER*/
 
+.Principal-text {
+font-size: 64px;
+font-weight: 500;
+line-height: 64px;
+letter-spacing: -0.04em;
+text-align: center;
+color: rgba(255, 255, 255, 1) ;
+}
+.img-box {
+    width: 1053px;
+    height: 702px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 71px;
+    padding-right: 156px;
+}
+.img-container-banner{
+    width: 1053px;
+    height: 702px;
+    padding-top: 172px;
+}
+.text-superpost {
+position: absolute;
+top: 114px;
+left: 191px  ;
+right: 191px;
+}
+
+
+
+
+
+
+
+
+
+/* OVALOS*/
+.text-banner {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: var(--white-color);    
+}
+.box-text{
+    width: 222px;
+    height: 108px; 
+}
+.watermelon-circule {
+    width: 249px;
+    height: 387px;
+    background-color:rgba(164, 203, 102, 1) ;
+    display: flex;
+    align-items: self-start;
+    justify-content: center;
+    border-radius: 500px;
+}
+.circule-title {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: var(--white-color);
+}
+.text-circle{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: var(--white-color);
+}   
+.strawberrys-circle {
+    background-color: rgba(245, 206, 19, 1);
+    width: 249px;
+    height: 387px;
+    display: flex;
+    align-items: self-start;
+    justify-content: center;
+    border-radius: 500px;
+}
+.list-oval {
+    padding: 0;
+}
+.oval-element {
+    text-align: center;
+    margin: 10px;
+}
+.hashtag1{
+    color: var(--white-color);
+    width: 125px;
+    height: 38px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hashtag2 {
+    color: var(--white-color);
+    width: 133px;
+    height: 38px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+.hashtag3 {
+    color: var(--white-color);
+    width: 115px;
+    height: 38px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hashtag4 {
+    color: var(--white-color);
+    width: 110px;
+    height: 38px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*ORDER YOUR FRUIT*/
 
 /*PICTURE*/
@@ -86,6 +258,7 @@ a {
     align-items: center;
     justify-content: space-between;
 }
+
 .img-footer {
     padding-top: 50px;
     display: flex;
@@ -93,9 +266,11 @@ a {
     align-items: center;
     justify-content: center;
 }
+
 .img-izq {
 padding: 0;
 }
+
 .element-img {
     text-align: center;
     margin: 10px 0;
@@ -123,8 +298,6 @@ padding: 0;
     text-align: center;
 
 }
-
-
 
 .contact-box {
     display: flex;
