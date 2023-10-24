@@ -8,7 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <!--NAVEGATION BAR-->
@@ -44,60 +44,60 @@
     <main class="container">
       <!--INFORMATION BANNER-->
 
-      
-        <div class="text-superpost">
-          <h1 class="Principal-text">
-            FRESH HARVEST BOX <br> IS YOUR ONE-STOP PLACE FOR <br> A DELICIOUS FRUIT BASKET
-          </h1>
-        </div>
-        <div class="img-container-banner">
+      <div class="elements-disorder">
+        <div class="img-baner">
+          <div class="ovalo"></div>
           <img class="img-banner" src="/Elements/Girl.png" alt="Girl with an orange" width="452px" height="702px"/>
+          <img class="banana" src="/Elements/bananas.png" alt="">
+          <img class="strawberry" 
+          width="120px" height="120px"  src="/Elements/strawberrys.png" alt="strawberrys" />
+          <div class="text-superpost">
+              <h1 class="Principal-text">
+                FRESH HARVEST BOX IS YOUR ONE-STOP PLACE FOR A DELICIOUS FRUIT BASKET
+              </h1>
+            </div>
         </div>
+            <svg class="svg1" width="114px" height="114px">
+              <use href="./Elements/icons.svg#buttonsbtn"></use>
+            </svg>
 
-      <svg width="114" height="114">
-        <use href="./Elements/icons.svg#buttonsbtn"></use>
-      </svg>
+        <div class="box-text">
+          <h4 class="text-banner">
+            Our expertly curated fruit baskets are made with the freshest, highest
+            quality fruits available. Whether you are looking for a healthy snack or
+            a gift for a loved one, Fresh Harvest Box has got you covered.
+          </h4>
+        </div>
+        <div class="watermelon-circule">
+          <ul class="list-oval">
+            <li class="oval-element"> <h5 class="circule-title">Fruit</h5> </li>
+            <li class="oval-element"> <img src="/Elements/watermelon.png " alt="watermelon" width="162px" height="185px "/> </li>
+            <li class="oval-element">
+              <h4 class="text-circle">
+                REFRESHING AND JUICY,<br> WATERMELON IS THE <br>PERFECT SUMMER TREAT <br> AND A GREAT SOURCE OF <br> HYDRATION
+              </h4>
+            </li>
+          </ul>
+        </div>
+          <div class="strawberrys-circle">
+            <ul class="list-oval">
+              <li class="oval-element"> <h5 class="circule-title">Fruit</h5> </li>
+              <li class="oval-element"> <img src="/Elements/strawberry-food.png" alt="" width="162px" height="185px"/> </li>
+              <li class="oval-element">
+                <h4 class="text-circle">
+                  SWEET AND JUICY, <br> STRAWBERRIES ARE PACKED <br>WITH VITAMIN C AND <br> ANTIOXIDANTS, MAKING THEM <br> A DELICIOUS AND HEALTHY <br> SNACK 
+                </h4>
+              </li>
+            </ul>
+          </div>
+        
+       
 
-      <div class="box-text">
-        <h4 class="text-banner">
-          Our expertly curated fruit baskets are made with the freshest, highest
-          quality fruits available. Whether you are looking for a healthy snack or
-          a gift for a loved one, Fresh Harvest Box has got you covered.
-        </h4>
-      </div>
-      <div class="watermelon-circule">
-        <ul class="list-oval">
-          <li class="oval-element"> <h5 class="circule-title">Fruit</h5> </li>
-          <li class="oval-element"> <img src="/Elements/watermelon.png " alt="watermelon" width="162px" height="185px "/> </li>
-          <li class="oval-element">
-            <h4 class="text-circle">
-              REFRESHING AND JUICY, WATERMELON IS THE PERFECT SUMMER TREAT AND A GREAT SOURCE OF HYDRATION
-            </h4>
-          </li>
-        </ul>
-      </div>
-
-      
-
-      <div class="strawberrys-circle">
-        <ul class="list-oval">
-          <li class="oval-element"> <h5 class="circule-title">Fruit</h5> </li>
-          <li class="oval-element"> <img src="/Elements/strawberry-food.png" alt="" width="162px" height="185px"/> </li>
-          <li class="oval-element">
-            <h4 class="text-circle">
-              SWEET AND JUICY, STRAWBERRIES ARE PACKED WITH VITAMIN C AND ANTIOXIDANTS, MAKING THEM A DELICIOUS AND HEALTHY SNACK 
-            </h4>
-          </li>
-        </ul>
-      </div>
-
-      <img src="/Elements/strawberrys.png" alt="strawberrys" />
-
-      <h4 class="hashtag1">#ORGANIC</h4>
-      <h4 class="hashtag2">#PRODUCTS</h4>
-      <h4 class="hashtag3">#BASKET</h4>
-      <h4 class="hashtag4">#FRUITS</h4>
-
+        <h4 class="hashtag1">#ORGANIC</h4>
+        <h4 class="hashtag2">#PRODUCTS</h4>
+        <h4 class="hashtag3">#BASKET</h4>
+        <h4 class="hashtag4">#FRUITS</h4>
+    </div>
       <!--     ORDER YOUR FRUIT      -->
 
       <section class="order-your-fruit">
@@ -151,7 +151,7 @@
             <li class="box1">
                 <h4 class="title-list-fruit">Strawberry</h4>
                 <h5 class="text-list-fruit">Plant</h5>
-                <img
+                <img class="img-list"
                   src="/Elements/FRUITS PNG/strawberrys.png "
                   alt="strawberry"
                   width="295px" height="251px"
@@ -245,25 +245,34 @@
 
       <!--FRESH HARVEST BOX-->
 
-      <section class="fresh">
-        <h2 class="title-fresh">FRESH HARVEST BOX HAS <br>GOT YOU COVERED</h2>
-        <img src="/Elements/melon.jpg" alt="melon" />
-        <img src="/Elements/blueberries.jpg" alt="blueberries" />
-      </section>
+      <div class="fresh">
+        <div class="tittle-fresh.superpost">
+          <h2 class="title-fresh">FRESH HARVEST BOX HAS <br>GOT YOU COVERED</h2>
+        </div>
+        <img class="img1" width="792px" height="502px " src="/Elements/melon.png" alt="melon" />
+        <img class="img2" width="400px" height="502px" src="/Elements/blueberries.png" alt="blueberries" />
+     
+      </div>
 
       <!--  INFORMATION BOX   -->
-      <section>
-        <h5>
-          Our boxes are packed with delicious, nutritious fruits and vegetables,
-          perfect for anyone looking to eat healthier or support local farmers.
-          Order your box today and start enjoying the best that nature has to
-          offer!
-        </h5>
-        <form action="procesar_busqueda.php" method="get">
-          <input type="text" name="q" placeholder="Enter email..." />
-          <input type="submit" value="send" />
-        </form>
+      <section class="information-box">
+        <div class="info-box">
+          <h5 class="text-info">
+            Our boxes are packed with delicious, nutritious fruits and vegetables,
+            perfect for anyone looking to eat healthier or support local farmers.
+            Order your box today and start enjoying the best that nature has to
+            offer!
+          </h5>
+          <div class="contenedor">
+            <div class="formulario">
+              <input type="email" id="correo" placeholder="Enter email...">
+              <button type="submit">Send</button>
+            </div>
+          </div>
+        </div>
       </section>
+
+      
     </main>
 
     <!--FOOTER-->
