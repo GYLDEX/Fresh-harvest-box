@@ -40,10 +40,13 @@ a {
     align-items: centers;
 }
 .navegation-list { 
-    display: flex;    
+    display: flex;
+    flex-direction: row;
+    align-items:center;  
+    justify-content: center;  
     gap: 20px;
     align-items: center;
-    padding-top: 16px;
+    padding-left: 32px;
 }
 .text-header {
  color: var(--principal-color);
@@ -58,7 +61,6 @@ a {
     align-items: center;
     display: flex;
     padding-left : 322px;
-    padding-top: 16px;
     gap: 506px ;
 }
 
@@ -73,9 +75,8 @@ a {
     position: relative;
     top: 153px;
     left: 397px;
-
   }
-  
+
 .Principal-text {
 font-size: 64px;
 font-weight: 500;
@@ -516,7 +517,11 @@ color: var(--white-color);
     flex-direction: column;
     justify-content: center;
 }
-
+.img-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .title-list-fruit {
 font-size: 32px;
 font-weight: 700;
@@ -525,7 +530,8 @@ letter-spacing: -0.04em;
 text-align: left;
 color: var(--white-color);
 padding-left: 24px;
-margin: 0px;
+margin-top: 64px;
+margin-bottom: 0px;
 }
 .text-list-fruit{
 font-size: 18px;
@@ -552,9 +558,12 @@ margin: 0px;
     justify-content: center;
     border: none;
     cursor: pointer;
-    margin: 0px;
+    margin-left: 25px;
 }
-
+.button {
+  display: flex;
+  margin-left: 25px;
+}
 .order {
 padding-top: 44px;
 display: flex;
@@ -649,6 +658,7 @@ bottom: 463px;
     padding: 10px 20px;
     cursor: pointer;
   }
+
 /*FOOTER*/
   
 .container-footer {
